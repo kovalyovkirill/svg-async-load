@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    "target": "ES2015",
+    "module": "ESNext",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "declaration": true,
+    "declarationDir": "types",
+    "sourceMap": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "baseUrl": "./",
+    "removeComments": false,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noImplicitAny": false,
+    "jsx": "react",
+    "paths": {
+      "@src/atoms/*": ["src/atoms/*"],
+      "@src/models/*": ["src/models/*"]
+    }
+  },
+  "include": ["src", "css-modules.d.ts", "./jest-setup.ts"],
+  "exclude": [
+    "node_modules",
+    "src/__tests__",
+    "**/*.test.tsx",
+    "**/*.test.ts",
+    "dist"
+  ]
+}

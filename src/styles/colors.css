@@ -1,0 +1,17 @@
+:root {
+    --black: #000000;
+    --red: red;
+    --green: green;
+}
+
+.Color__black {
+    color: var(--black);
+}
+
+.Color__red {
+    color: var(--red);
+}
+
+.Color__green {
+    color: var(--green);
+}

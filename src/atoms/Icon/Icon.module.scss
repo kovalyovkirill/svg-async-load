@@ -1,0 +1,26 @@
+.root {
+  display: block;
+}
+
+.disabled {
+  color: inherit;
+}
+
+.size {
+  width: var(--icon-size);
+  height: var(--icon-size);
+  min-width: var(--icon-size);
+  min-height: var(--icon-size);
+
+  &_sm {
+    --icon-size: 16px;
+  }
+
+  &_md {
+    --icon-size: 24px;
+  }
+
+  &_lg {
+    --icon-size: 32px;
+  }
+}
