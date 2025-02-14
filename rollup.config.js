@@ -18,7 +18,7 @@ const format = 'es';
  */
 const configBase = {
   input: 'src/index.ts',
-  external: [...Object.keys(packageJson.dependencies || {}), ...Object.keys(packageJson.peerDependencies || {})],
+  external: ['react', 'react-dom', 'clsx'],
   output: {
     dir: './dist',
     format,

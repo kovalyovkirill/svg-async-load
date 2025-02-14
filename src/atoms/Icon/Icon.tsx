@@ -18,7 +18,6 @@ interface IIconProps extends SVGProps<SVGSVGElement> {
 
 interface CSSVariables {
   '--icon-size'?: string;
-  '--secondary-color'?: string;
 }
 
 type CustomStyle = React.CSSProperties & CSSVariables;
